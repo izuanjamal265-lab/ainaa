@@ -6,19 +6,19 @@
 
 const CONFIG = {
   // ===== 1. BASIC INFO =====
-  recipientName: "Kimmy",
+  recipientName: "Ainaa Nur Nabihah",
   senderName: "Izuan",
-  password: "11111",
+  password: "1409",
 
   // ===== 2. OPENING =====
   openingTitle: "For You",
   openingSubtitle: "A little surprise made with love ♡",
-  passwordHint: "Hint: 11111",
+  passwordHint: "Hint: Today",
 
   // ===== 3. BIRTHDAY =====
   birthdaySmall: "♡ YOUR SPECIAL DAY ♡",
   birthdayTitle: "Happy Birthday",
-  birthdayName: "Kimmy",
+  birthdayName: "Ainaa Nur Nabihah",
   birthdayText: "Today is all about you. I hope this little surprise makes you smile.",
 
   // ===== 4. DIGITAL BOUQUET =====
@@ -31,8 +31,8 @@ const CONFIG = {
   memoriesSmall: "♡ OUR MEMORIES ♡",
   memoriesTitle: "Moments I Want To Keep",
   memories: [
-    { image: "photo1.jpg", caption: "One of my favourite memories ♡" },
-    { image: "photo2.jpg", caption: "A little moment worth remembering." },
+    { image: "photo1.jpg", caption: "somel kan kita? ♡" },
+    { image: "photo2.jpg", caption: "saya harap, saya dapat dengan awak sampai bila-bila." },
     { image: "photo3.jpg", caption: "I hope we make many more memories." },
     { image: "photo4.jpg", caption: "This one always makes me smile ♡" }
   ],
@@ -41,7 +41,7 @@ const CONFIG = {
   playlistSmall: "♫ SPECIAL PLAYLIST ♫",
   playlistTitle: "Songs That Remind Me Of You",
   songs: [
-    { title: "Our Song", artist: "Artist", file: "song1.mp3" },
+    { title: "Happy Birthday Sayang", artist: "meow", file: "song1.mp3" },
     { title: "Another Song", artist: "Artist", file: "song2.mp3" },
     { title: "One More Song", artist: "Artist", file: "song3.mp3" }
   ],
