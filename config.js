@@ -36,9 +36,10 @@ const CONFIG = {
     { image: "photo3.jpg", caption: "I hope we make many more memories." },
     { image: "photo4.jpg", caption: " langit cantik, orang cantik ♡" }, 
     { image: "photo5.jpg", caption: "bila kita nak mancing lagi? :(" }, 
-    { image: "photo6.jpg", caption: "rinduuuuuu nai jenjalannnn" }, 
+    { image: "photo6.jpg", caption: "rinduuuuuu nak jenjalannnn lagiiiiii" }, 
     { image: "photo7.jpg", caption: " haihh laa pantai Pahang :(" }, 
-    { image: "photo8.jpg", caption: "SI CANTIK SAYA♡" }
+    { image: "photo8.jpg", caption: "SI CANTIK SAYA♡" }, 
+    { image: "photo9.jpg", caption: "KIYOOOOOTTTTTT >< " }
 
 
    
@@ -50,7 +51,7 @@ const CONFIG = {
   songs: [
     { title: "Happy Birthday Sayang", artist: "meow", file: "song1.mp3" },
     { title: "My Crush", artist: "awak la crush saya", file: "song2.mp3" },
-    { title: "Aishiteru 2 remix", artist: "taktauuuu", file: "song3.mp3" }
+    { title: "Aishiteru 2 remix", artist: "lagu wajib dalam kereta", file: "song3.mp3" }
   ],
 
   // ===== 7. LETTER =====
@@ -59,14 +60,15 @@ const CONFIG = {
   letterText:
 `Hai sayang ♡
 
-Selamat hari lahir yang ke-21. PERGH DAH BOLEH KAWEN LA EK TAPI KAN HAHAHAHAHAHAH.
+Selamat hari lahir yang ke-21 Ainaa Nur Nabihah.
+
+PERGH DAH BOLEH KAWEN LA EK TAPI KAN HAHAHAHAHAHAH.
 
 Thank you for all the little moments, the laughs, and the memories. I hope this new chapter of your life brings you happiness, peace, and everything you've been wishing for.
 
 Saya doakan semoga urusan awak dipermudahkan, diberikan kesihatan yang berpanjangan, dimurahkan rezeki(nanti boleh belanja aweng). 
 
-Study betul betul nanti! make sure dekan eh. Jangan sad sad tauu, aweng ada dengan enaa. 
-
+Study betul betul nanti! make sure dekan eh. Jangan sad sad tauu, aweng ada dengan enaa. Stay dengan aweng tau, aweng saaaayang ena sangat sangat :(.
 
 No matter what happens, I hope you know that you are someone worth celebrating.
 
