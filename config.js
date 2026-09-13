@@ -66,7 +66,7 @@ PERGH DAH BOLEH KAWEN LA EK TAPI KAN HAHAHAHAHAHAH.
 
 Thank you for all the little moments, the laughs, and the memories. I hope this new chapter of your life brings you happiness, peace, and everything you've been wishing for.
 
-Saya doakan semoga urusan awak dipermudahkan, diberikan kesihatan yang berpanjangan, dimurahkan rezeki(nanti boleh belanja aweng). 
+Saya doakan semoga urusan awak dipermudahkan, diberikan kesihatan yang berpanjangan, dimurahkan rezeki(nanti boleh belanja aweng ihiks). 
 
 Study betul betul nanti! make sure dekan eh. Jangan sad sad tauu, aweng ada dengan enaa. Stay dengan aweng tau, aweng saaaayang ena sangat sangat :(.
 
