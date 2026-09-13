@@ -8,12 +8,12 @@ const CONFIG = {
   // ===== 1. BASIC INFO =====
   recipientName: "Ainaa Nur Nabihah",
   senderName: "Izuan",
-  password: "1409",
+  password: "14092005",
 
   // ===== 2. OPENING =====
   openingTitle: "For You",
   openingSubtitle: "A little surprise made with love ♡",
-  passwordHint: "Hint: Today",
+  passwordHint: "Hint: Your Birthday",
 
   // ===== 3. BIRTHDAY =====
   birthdaySmall: "♡ YOUR SPECIAL DAY ♡",
