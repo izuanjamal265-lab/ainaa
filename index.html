@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0710">
+<title>For You ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div><div id="floaters"></div>
+
+<!-- OPENING -->
+<section id="lock" class="screen">
+  <div class="orb orb1"></div><div class="orb orb2"></div>
+  <div class="lock-card">
+    <div class="mini-flower">🌷</div>
+    <div class="tiny">A PRIVATE LITTLE SURPRISE</div>
+    <h1 id="openingTitle"></h1>
+    <h2 id="openingName"></h2>
+    <p id="openingSubtitle"></p>
+    <div class="pin" id="pin"><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="keypad">
+      <button data-key="1">1</button><button data-key="2">2</button><button data-key="3">3</button>
+      <button data-key="4">4</button><button data-key="5">5</button><button data-key="6">6</button>
+      <button data-key="7">7</button><button data-key="8">8</button><button data-key="9">9</button>
+      <button data-key="clear">C</button><button data-key="0">0</button><button data-key="back">⌫</button>
+    </div>
+    <div class="hint" id="hint"></div>
+    <div class="error" id="error"></div>
+  </div>
+</section>
+
+<div id="loader" class="screen hidden">
+  <div class="loader-flower">✿</div>
+  <p>Preparing something special...</p>
+</div>
+
+<!-- WEBSITE -->
+<main id="site" class="hidden">
+  <div class="progress"><span id="progress"></span></div>
+
+  <section class="scene" id="s1">
+    <div class="scene-inner hero">
+      <div class="tiny" id="birthdaySmall"></div>
+      <div class="glow-text">✦</div>
+      <h1 id="birthdayTitle"></h1>
+      <h2 id="birthdayName"></h2>
+      <p id="birthdayText"></p>
+      <button class="pill" onclick="nextScene()">Continue ♡</button>
+    </div>
+  </section>
+
+  <section class="scene" id="s2">
+    <div class="scene-inner">
+      <div class="tiny" id="bouquetSmall"></div>
+      <h1 id="bouquetTitle"></h1>
+      <p id="bouquetText" class="muted"></p>
+      <div class="bouquet" onclick="flowerBurst()">
+        <div class="stem stem1"></div><div class="stem stem2"></div><div class="stem stem3"></div>
+        <div class="flower f1">🌷</div><div class="flower f2">🌸</div><div class="flower f3">🌼</div>
+        <div class="flower f4">🌷</div><div class="flower f5">🌸</div>
+        <div class="leaf l1">♡</div><div class="leaf l2">♡</div>
+      </div>
+      <p class="bouquet-msg" id="bouquetMessage"></p>
+      <button class="circle-next" onclick="nextScene()">›</button>
+    </div>
+  </section>
+
+  <section class="scene" id="s3">
+    <div class="scene-inner">
+      <div class="tiny" id="memoriesSmall"></div>
+      <h1 id="memoriesTitle"></h1>
+      <div class="polaroid" id="polaroid">
+        <img id="memoryImg" src="" alt="Memory">
+        <div id="memoryCaption"></div>
+      </div>
+      <div class="swipe-row">
+        <button onclick="memoryPrev()">‹</button>
+        <div id="memoryDots"></div>
+        <button onclick="memoryNext()">›</button>
+      </div>
+      <p class="swipe-help">swipe or use the arrows</p>
+      <button class="circle-next" onclick="nextScene()">›</button>
+    </div>
+  </section>
+
+  <section class="scene" id="s4">
+    <div class="scene-inner">
+      <div class="tiny" id="playlistSmall"></div>
+      <h1 id="playlistTitle"></h1>
+      <div class="music-card">
+        <div class="vinyl" id="vinyl">♫</div>
+        <div class="now" id="trackTitle"></div>
+        <div class="artist" id="artist"></div>
+        <input id="seek" type="range" min="0" max="100" value="0">
+        <div class="time"><span id="current">0:00</span><span id="duration">0:00</span></div>
+        <div class="controls">
+          <button onclick="prevSong()">⏮</button>
+          <button class="main-play" onclick="toggleSong()" id="play">▶</button>
+          <button onclick="nextSong()">⏭</button>
+        </div>
+      </div>
+      <div class="tracks" id="tracks"></div>
+      <button class="circle-next" onclick="nextScene()">›</button>
+    </div>
+  </section>
+
+  <section class="scene" id="s5">
+    <div class="scene-inner letter-scene">
+      <div class="tiny" id="letterSmall"></div>
+      <h1 id="letterTitle"></h1>
+      <div class="letter-paper">
+        <div class="paper-flower">✿</div>
+        <p id="letterText"></p>
+        <div class="signature" id="sender"></div>
+      </div>
+      <button class="circle-next" onclick="nextScene()">›</button>
+    </div>
+  </section>
+
+  <section class="scene" id="s6">
+    <div class="scene-inner final-scene">
+      <div class="tiny" id="finalSmall"></div>
+      <div class="final-heart">♡</div>
+      <h1 id="finalTitle"></h1>
+      <p id="finalText"></p>
+      <div class="signature" id="finalSignature"></div>
+      <button class="pill" onclick="replay()">Replay from the beginning</button>
+    </div>
+  </section>
+</main>
+
+<audio id="audio" preload="metadata"></audio>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
