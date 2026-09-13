@@ -8,7 +8,7 @@ const CONFIG = {
   // ===== 1. BASIC INFO =====
   recipientName: "Ainaa Nur Nabihah",
   senderName: "Izuan",
-  password: "14092005",
+  password: "1409",
 
   // ===== 2. OPENING =====
   openingTitle: "For You",
